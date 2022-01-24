@@ -116,15 +116,15 @@ header {
   /* fallback for old browsers */
   background: -webkit-linear-gradient(
       to right,
-      hsla(229, 95%, 50%, 0.459),
-      hsla(209, 45%, 52%, 0.664)
+      hsla(162, 95%, 50%, 0.459),
+      hsla(170, 45%, 52%, 0.664)
     ),
     url(../img/portada.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
       to right,
-      hsla(229, 95%, 50%, 0.459),
-      hsla(209, 45%, 52%, 0.664)
+      hsla(162, 95%, 50%, 0.459),
+      hsla(170, 45%, 52%, 0.664)
     ),
     url(../img/portada.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -515,4 +515,8 @@ footer {
   .titulo-final {
     font-size: 20px;
   }
+}
+h5 a{
+  color: whitesmoke;
+  text-decoration: none;
 }
